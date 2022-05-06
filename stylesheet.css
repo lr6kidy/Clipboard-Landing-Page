@@ -1,0 +1,444 @@
+body, html {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: auto;
+  margin: 0;
+  font-family: Bai Jamjuree, arial;
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+.header-mobile-bg {
+  display: none;
+}
+
+.header-background {
+  position: absolute;
+  top: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-header {
+  position: absolute;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 128px;
+}
+
+.header-title {
+  font-size: 46px;
+  letter-spacing: -0.8px;
+  font-weight: 600;
+  margin: 180px 0 16px 0; 
+  color: hsl(210, 10%, 33%);
+}
+
+.header-description {
+  font-size: 20px;
+  font-weight: 400;
+  word-spacing: 1px;
+  line-height: 30px;
+  color: hsl(201, 11%, 66%);
+  text-align: center;
+  width: 700px;
+}
+
+.download-buttons {
+  display: flex;
+  flex-direction: row;
+  margin: 48px 0 154px 0;
+}
+
+.ios, .mac {
+  width: 228px;
+  height: 54px;
+  border: none;
+  border-radius: 27px;
+  font-family: Bai Jamjuree, arial;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  color: white;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.ios {
+  background-color: rgb(38, 186, 164);
+  margin-right: 16px;
+  box-shadow: 0px 2px 1px rgb(26, 131, 115), 0 8px 12px rgba(40, 199, 175, 0.4);
+}
+
+.mac {
+  background-color: rgb(97, 115, 255);
+  box-shadow: 0px 2px 1px rgb(70, 84, 193), 0 8px 12px rgba(135, 149, 255, 0.4);
+}
+
+.ios:hover {
+  background-color: rgb(60, 215, 192);
+  margin-right: 16px;
+  box-shadow: 0px 2px 1px rgb(56, 187, 167), 0 8px 12px rgba(68, 223, 200, 0.4);
+}
+
+.mac:hover {
+  background-color: rgb(129, 144, 255);
+  box-shadow: 0px 2px 1px rgb(100, 114, 220), 0 8px 12px rgba(112, 128, 255, 0.4);
+}
+
+.storage-top-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 78px;
+}
+
+.title, .subtitle {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+
+.title {
+  font-size: 35px;
+  letter-spacing: -0.1px;
+  margin-bottom: 20px;
+}
+
+.description {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  word-spacing: 1px;
+  line-height: 30px;
+  color: hsl(201, 11%, 66%);
+  width: 700px;
+}
+
+.storage-bottom-section {
+  display: flex;
+
+  width: 1439px;
+  overflow: hidden;
+
+  margin-bottom: 154px;
+}
+
+.computer-screen {
+  margin: 0 0 0 -32px;
+}
+
+.features {
+  margin: 70px 0 0 109px;
+}
+
+.subtitle {
+  font-size: 24px;
+  letter-spacing: -0.3px;
+  margin-bottom: 8px;
+}
+
+.sub-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: hsl(201, 11%, 66%);
+  word-spacing: 1px;
+  line-height: 30px;
+  width: 351px;
+  margin-bottom: 55px;
+}
+
+.access {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.devices-image {
+  margin: 100px 0 70px 0;
+}
+
+.boost {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boost-top-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 73px;
+}
+
+.tools {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 104px;
+}
+
+.blacklist, .text, .preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  margin: 0 28px 0 28px;
+}
+
+.blacklist-image {
+  margin-bottom: 38px;
+}
+
+.text-image, .preview-image {
+  margin-bottom: 46px;
+}
+
+.tools .sub-description {
+  text-align: center;
+  margin-top: 8px;
+}
+
+.other {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partners {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 156px;
+}
+
+.google-logo, .ibm-logo, .microsoft-logo, .HP-logo {
+  margin-right: 96px;
+}
+
+.download {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #f5f6f8;
+  width: 1439px;
+  height: 150px;
+}
+
+.logo-footer {
+  width: 56px;
+  margin-right: 135px;
+}
+
+.middle-footer-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-link {
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.15s
+}
+
+p {
+  color: hsl(210, 10%, 33%);
+}
+
+.column1 {
+  margin-right: 98px;
+}
+
+.column2 {
+  margin-right: 72px;
+}
+
+.right-footer-section {
+  margin-left: 320px;
+}
+
+.fa-facebook-square, .fa-instagram {
+  font-size: 28px;
+  color: hsl(210, 10%, 33%);
+  cursor: pointer;
+  transition: 0.15s
+}
+
+.fa-twitter {
+  font-size: 24px;
+  color: hsl(210, 10%, 33%);
+  margin: 0 20px 0 20px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.footer-link:hover,
+.fa-facebook-square:hover,
+.fa-twitter:hover,
+.fa-instagram:hover {
+  color: rgb(38, 186, 164);
+}
+
+@media (max-width: 400px) {
+
+  .header-background {
+    display: none;
+  }
+
+  .header-mobile-bg {
+    position: absolute;
+    top: 0;
+    display: block;
+  }
+
+  .header-title {
+    text-align: center;
+    width: 250px;
+    font-size: 27px;
+    margin: 180px 0 24px 0; 
+  }
+
+  .header-description {
+    text-align: center;
+    font-size: 14px;
+    width: 274px;
+  }
+
+  .download-buttons {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ios, .mac {
+    width: 280px;
+    height: 48px;
+  }
+
+  .ios {
+    margin-bottom: 26px;
+    margin-right: 0;
+  }
+
+  .title, .subtitle, .description, .sub-description {
+    text-align: center;
+    width: 274px;
+  }
+
+  .title {
+    width: 250px;
+    font-size: 24px;
+  }
+
+  .description, .sub-description {
+    font-size: 14px;
+  }
+
+  .storage {
+    width: auto;
+  }
+
+  .storage-top-section {
+    margin-bottom: 60px;
+  }
+
+  .storage-bottom-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin: 0;
+  }
+
+  .computer-screen {
+    object-fit: cover;
+    width: 280px;
+    margin: 0;
+  }
+
+  .features {
+    margin-left: 0;
+    margin-top: 50px;
+    margin-bottom: 154px;
+  }
+
+  .devices-image {
+    object-fit: cover;
+    width: 280px;
+    margin: 50px 0 154px 0;
+  }
+
+  .boost-top-section {
+    margin-bottom: 44px;
+  }
+
+  .tools {
+    flex-direction: column;
+  }
+
+  .partners {
+    flex-direction: column;
+  }
+
+  .google-logo, .ibm-logo, .microsoft-logo, .HP-logo {
+    margin-right: 0;
+    margin-bottom: 60px;
+}
+
+  footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 375px;
+    height: 470px;
+    margin-top: 80px;
+  }
+
+  .logo-footer {
+    margin: 0 0 50px 0;
+  }
+  
+  .middle-footer-section {
+    flex-direction: column;
+    margin: 0;
+    text-align: center;
+  }
+
+  .column1, .column2 {
+    margin: 0 0 20px 0;
+  }
+
+  .footer-link {
+    margin: 0;
+  }
+
+  .right-footer-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 50px 0 0 0;
+  }
+
+}
